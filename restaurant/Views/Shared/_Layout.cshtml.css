@@ -1,0 +1,41 @@
+﻿.mylogo{
+    width: 200px;
+    height: 50px;
+}
+
+.indexFooter {
+    background-color: #212121;
+    color:#b7b7b7;
+}
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+.indexFooter a {
+    color: #b7b7b7;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footerbtn {
+    font-weight: bold;
+    color: white;
+    background-color: #D25823;
+}
+
+.footerbtn:hover {
+    background-color: #C53F0F
+}

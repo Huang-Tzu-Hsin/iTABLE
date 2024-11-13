@@ -1,0 +1,72 @@
+﻿/*橫幅圖*/
+#firstImg {
+    width: 100%;
+    height: 65vh;
+    object-fit: cover; /* 確保圖片適應容器比例 */
+}
+
+
+/*錨點導覽*/
+#navbar-example2 a{
+    font-weight:bold;
+    color:lightslategrey;
+}
+
+ #navbar-example2 a:hover {
+        color: #FF6A28;
+    }
+
+.restaurantNav {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+/*收藏*/
+.favorite {
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black
+}
+
+.active {
+    color: aliceblue;
+    background-color: #DB7A51; /* 收藏後的顏色 */
+}
+
+section {
+    border: solid 1px;
+    border-color: #E0E0E0;
+    background-color:white;
+}
+
+/*星星樣式*/
+.rating {
+    display: inline-block;
+}
+.star {
+    font-size: 2rem;
+    position: relative;
+}
+
+.full {
+    color: gold;
+}
+
+.half {
+    color: lightgray; /* 半星初始顏色 */
+    position: relative;
+}
+
+    .half::after {
+        content: '\2605'; /* ★ */
+        color: gold;
+        position: absolute;
+        left: 0;
+        width: 50%;
+        overflow: hidden;
+    }
+
+.empty {
+    color: lightgray;
+}
